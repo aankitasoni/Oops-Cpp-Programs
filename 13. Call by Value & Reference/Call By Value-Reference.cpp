@@ -14,7 +14,7 @@ void swap(int a, int b){ //temp a  b
 }
 
 // Call by reference using pointers
-void swapPointer(int* a, int* b){ //temp a  b
+void swapPointer(int* a, int* b) { //temp a  b
     int temp = *a;              //   4   4  5   
     *a = *b;                   //    4   5  5
     *b = temp;                //     4   5  4 
